@@ -154,7 +154,7 @@ i.menu-mobile {
     section#home h2 {
         font-size: 3.5rem;
     }
-    secton#home span#subtitle {
+    section#home span#subtitle {
         margin-right: 0;
         font-size: 1rem;
     }
@@ -163,6 +163,22 @@ i.menu-mobile {
     }
 }
 
-#sobre {
-    background-color: #fd7e14;
+.container {
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 .3rem#00000050;
+    background-color: #0f0a0a;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #252c90;
 }
