@@ -50,6 +50,8 @@ body {
     background-image: linear-gradient(to right, #149ddd, #168891);
     color: #fff;
     padding-top: 5%;
+    width: 100%;
+    height: 100vh;
 }
 
 .promo-title {
@@ -148,7 +150,7 @@ body {
 #sobre {
     /*background: #f8f9fa;*/
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     background-image: url("../img/tela.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,10 +161,10 @@ body {
 }
 
 .about-title {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
-    margin-top: 8%;
-    text-align: justify;
+    padding-top: 8%;
+    text-align: center;
 }
 
 #sobre ul li {
@@ -285,6 +287,14 @@ body {
 
 @media (max-width: 1024px) {
     #services {
-        display: table-row;
+        display: inline-table;
+        width: 100%;
+        height: 100vh;
+    }
+    .about-title {
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 8%;
+        text-align: center;
     }
 }
