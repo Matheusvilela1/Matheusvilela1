@@ -1,9 +1,12 @@
 {
-    "build": {
-        "functions": "api/",
-        "env": {
-            "PYTHON_VERSION": "3.8",
-            "VERCEL_URL": "@project"
-        }
-    }
+    "version": 2,
+    "builds": [{
+        "src": "api/*.py",
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "15mb" }
+    }],
+    "routes": [
+        { "handle": "filesystem" },
+        { "src": "/(.*)", "dest": "api/index.py" }
+    ]
 }
