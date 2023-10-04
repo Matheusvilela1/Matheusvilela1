@@ -1,6 +1,6 @@
 {
     "build": {
-        "functions": "/app.py",
+        "functions": "api/",
         "env": {
             "PYTHON_VERSION": "3.8",
             "VERCEL_URL": "@project"
