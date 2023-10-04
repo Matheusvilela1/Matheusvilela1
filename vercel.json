@@ -1,0 +1,9 @@
+{
+    "build": {
+        "functions": "/app.py",
+        "env": {
+            "PYTHON_VERSION": "3.8",
+            "VERCEL_URL": "@project"
+        }
+    }
+}
