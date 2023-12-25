@@ -81,9 +81,10 @@ i.menu-mobile {
 .nav-menu a,
 .nav-menu a:focus {
     align-items: center;
-    color: #ccc01c;
+    color: #000;
     transition: 0.3s;
     font-size: 15px;
+    font-family: fantasy;
 }
 
 .nav-menu a i,
