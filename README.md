@@ -9,6 +9,7 @@ técnico em informática e fascinado por tecnologia.
 
 [![Portfólio](https://img.shields.io/badge/ver_o_portfólio-ff3b5c?style=for-the-badge&logo=react&logoColor=white)](https://github.com/Matheusvilela1/portfolio)
 [![Kro](https://img.shields.io/badge/kro.vercel.app-0a0920?style=for-the-badge&logo=vercel&logoColor=white)](https://kro.vercel.app/)
+[![Orla](https://img.shields.io/badge/demo_do_Orla-0a0920?style=for-the-badge&logo=githubpages&logoColor=3ddc84)](https://matheusvilela1.github.io/orla-gastos/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a0920?style=for-the-badge&labelColor=0a0920&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzViOGNmZiIgZD0iTTQuOTggMy41YTIuNSAyLjUgMCAxIDEgMCA1IDIuNSAyLjUgMCAwIDEgMC01ek0zIDkuNzVoNHYxMUgzem02LjUgMGgzLjh2MS41aC4wNmMuNTMtMSAxLjgzLTIuMDUgMy43Ny0yLjA1IDQuMDMgMCA0Ljc3IDIuNjUgNC43NyA2LjF2NS40NWgtNHYtNC44M2MwLTEuMTUtLjAyLTIuNjMtMS42LTIuNjMtMS42IDAtMS44NSAxLjI1LTEuODUgMi41NXY0LjkxaC00eiIvPjwvc3ZnPg==)](https://www.linkedin.com/in/macv55/)
 [![E-mail](https://img.shields.io/badge/E--mail-0a0920?style=for-the-badge&logo=gmail&logoColor=ff3b5c)](mailto:1macv9@gmail.com)
 
@@ -23,7 +24,7 @@ const matheus = {
   formacao:  "Técnico em Informática — IFPE",
   cursando:  "Análise e Desenvolvimento de Sistemas — IFPE",
   foco:      ["Desenvolvimento Web", "Front-end", "Back-end"],
-  agora:     "construindo o Kro, um cronograma de estudos que se reorganiza sozinho",
+  projetos:  ["Orla — finanças pessoais", "Kro — cronograma de estudos", "este portfólio"],
   ia:        ["ChatGPT", "Claude"],   // parceiros de pesquisa, revisão e protótipo
   status:    "aberto a oportunidades",
 };
@@ -63,6 +64,7 @@ Programar, para mim, é desvendar quebra-cabeças e construir soluções que faz
     <td><b>Ferramentas</b></td>
     <td>
       <img src="https://img.shields.io/badge/Git-0a0920?style=flat-square&logo=git&logoColor=f05032" alt="Git" />
+      <img src="https://img.shields.io/badge/Vite-0a0920?style=flat-square&logo=vite&logoColor=a259ff" alt="Vite" />
       <img src="https://img.shields.io/badge/MySQL-0a0920?style=flat-square&logo=mysql&logoColor=4479a1" alt="MySQL" />
     </td>
   </tr>
@@ -111,6 +113,18 @@ Meu portfólio é feito em **React + TypeScript**, com intro em wireframe, revel
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://matheusvilela1.github.io/orla-gastos/"><img src="assets/orla.jpg" alt="Orla, painel de finanças pessoais" /></a>
+      <h3>💰 Orla · finanças pessoais</h3>
+      <p>Painel para controlar o próprio dinheiro: quanto sobra no mês, contas atrasadas, orçamento por categoria, investimentos e metas. Os dados ficam num arquivo no seu computador, e os gráficos são só HTML e CSS.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-0a0920?style=flat-square&logo=react&logoColor=61dafb" alt="React" />
+        <img src="https://img.shields.io/badge/TypeScript-0a0920?style=flat-square&logo=typescript&logoColor=3178c6" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Vite-0a0920?style=flat-square&logo=vite&logoColor=a259ff" alt="Vite" />
+        <img src="https://img.shields.io/badge/concluído-3ddc84?style=flat-square" alt="Concluído" />
+      </p>
+      <a href="https://matheusvilela1.github.io/orla-gastos/">Abrir a demonstração</a> · <a href="https://github.com/Matheusvilela1/orla-gastos">Repositório</a>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://kro.vercel.app/"><img src="assets/kro.jpg" alt="Kro, cronograma de estudos" /></a>
       <h3>🚀 Kro · cronograma de estudos</h3>
       <p>Você diz para qual prova estuda e como é a sua rotina. Ele monta a grade da semana, mostra onde você mais erra e reorganiza os estudos sozinho.</p>
@@ -121,8 +135,12 @@ Meu portfólio é feito em **React + TypeScript**, com intro em wireframe, revel
       </p>
       <a href="https://kro.vercel.app/">Abrir o site</a> · <a href="https://github.com/Matheusvilela1/cronograma">Repositório</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Matheusvilela1/portfolio"><img src="assets/comparador.jpg" alt="Comparador código × resultado do portfólio" /></a>
+    </td>
+    <td width="50%" valign="top">
       <h3>🌐 Portfólio pessoal</h3>
       <p>Visual editorial com animações em wireframe, revelação ao rolar e rastro de cursores, tudo sem biblioteca de animação.</p>
       <p>
@@ -139,7 +157,7 @@ Meu portfólio é feito em **React + TypeScript**, com intro em wireframe, revel
 
 ```diff
 + Formado    Técnico em Informática — IFPE
-+ Cursando   ADS — IFPE Campus Garanhuns
++ Cursando   ADS — IFPE
 + Hoje       Desenvolvimento Web + IA (React, TypeScript, Next.js, Node, PHP, MySQL)
 ! Próximo    procurando um time para crescer e entregar produtos de verdade
 ```
