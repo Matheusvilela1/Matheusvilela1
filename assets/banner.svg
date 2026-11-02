@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Matheus Vilela — dev front &amp; back-end">
+<title>Matheus Vilela — dev front &amp; back-end</title>
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#2a2752"/></pattern>
+  <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7"><stop offset="0" stop-color="#6d28d9" stop-opacity="0.45"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.6"><stop offset="0" stop-color="#ff3b5c" stop-opacity="0.16"/><stop offset="1" stop-color="#ff3b5c" stop-opacity="0"/></radialGradient>
+  <clipPath id="l1"><rect x="0" y="97" width="1200" height="147"/></clipPath>
+  <clipPath id="l2"><rect x="0" y="233" width="1200" height="147"/></clipPath>
+</defs>
+<style>
+  .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .eyebrow { font-size: 15px; letter-spacing: 3px; fill: #a7a3d6; }
+  .eyebrow tspan { fill: #ff3b5c; }
+  .tag { font-size: 12px; fill: #fff; }
+  .cmd { font-size: 13px; fill: #7c78b8; }
+  .out { font-size: 14px; }
+  .lbl { font-size: 12px; fill: #fff; font-weight: 700; }
+  .frame { fill: none; stroke: #5b8cff; stroke-width: 1.6; stroke-dasharray: 1; animation: draw 0.9s cubic-bezier(.65,0,.35,1) 0.2s both; }
+  .h { fill: #fff; stroke: #5b8cff; stroke-width: 1.6; animation: pop 0.3s ease 1s both; }
+  .ftag { animation: pop 0.3s ease 1s both; }
+  .rise { animation: rise 0.8s cubic-bezier(.2,.8,.2,1) both; }
+  .term { animation: fade 0.6s ease 1.2s both; }
+  .tl { animation: fade 0.35s steps(4) both; }
+  .caret { animation: blink 1s steps(1) 3.8s infinite; }
+  .cur { animation: fade 0.5s ease 3s both; }
+  .cur-a { animation: fade 0.5s ease 3s both, path-a 9s ease-in-out 3s infinite; }
+  .cur-b { animation: fade 0.5s ease 3.4s both, path-b 11s ease-in-out 3.4s infinite; }
+  @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+  @keyframes pop { from { opacity: 0; transform: scale(0.6); } }
+  @keyframes rise { from { transform: translateY(150px); } }
+  @keyframes fade { from { opacity: 0; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes path-a {
+    0%, 100% { transform: translate(640px, 300px); }
+    30% { transform: translate(560px, 150px); }
+    55% { transform: translate(700px, 92px); }
+    80% { transform: translate(690px, 330px); }
+  }
+  @keyframes path-b {
+    0%, 100% { transform: translate(1100px, 370px); }
+    35% { transform: translate(960px, 350px); }
+    65% { transform: translate(1140px, 70px); }
+  }
+  .h, .ftag { transform-box: fill-box; transform-origin: center; }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+    .cur-a { transform: translate(640px, 300px); }
+    .cur-b { transform: translate(1100px, 370px); }
+  }
+</style>
+
+<rect width="1200" height="420" rx="18" fill="#0a0920"/>
+<rect width="1200" height="420" rx="18" fill="url(#grid)"/>
+<rect width="1200" height="420" rx="18" fill="url(#glow)"/>
+<rect width="1200" height="420" rx="18" fill="url(#glow2)"/>
+
+<text x="84" y="44" class="mono eyebrow"><tspan>00</tspan> · OLÁ, EU SOU</text>
+
+<g clip-path="url(#l1)"><path class="rise" style="animation-delay:0.5s" d="M89.712890625 232.0V103.09375H128.970703125L139.810546875 181.6826171875L150.5771484375 103.09375H190.201171875V232.0H166.6171875V139.12890625L151.822265625 232.0H128.677734375L113.00390625 139.12890625V232.0ZM200.111328125 232.0 212.5625 103.09375H256.2880859375L268.51953125 232.0H244.1298828125L242.298828125 211.19921875H226.771484375L225.16015625 232.0ZM228.6025390625 190.6181640625H240.3212890625L234.681640625 125.06640625H233.509765625ZM289.4892578125 232.0V127.849609375H274.181640625V103.09375H330.578125V127.849609375H315.2705078125V232.0ZM339.755859375 232.0V103.09375H365.390625V149.1630859375H377.548828125V103.09375H403.18359375V232.0H377.548828125V173.552734375H365.390625V232.0ZM416.609375 232.0V103.09375H468.171875V127.99609375H442.830078125V153.1181640625H467.146484375V177.361328125H442.830078125V206.8779296875H469.8564453125V232.0ZM510.162109375 233.171875Q494.048828125 233.171875 486.431640625 224.12646484375Q478.814453125 215.0810546875 478.814453125 197.5029296875V103.09375H503.86328125V196.4775390625Q503.86328125 199.7001953125 504.2294921875 202.66650390625Q504.595703125 205.6328125 505.9140625 207.537109375Q507.232421875 209.44140625 510.162109375 209.44140625Q513.1650390625 209.44140625 514.4833984375 207.57373046875Q515.8017578125 205.7060546875 516.13134765625 202.703125Q516.4609375 199.7001953125 516.4609375 196.4775390625V103.09375H541.509765625V197.5029296875Q541.509765625 215.0810546875 533.892578125 224.12646484375Q526.275390625 233.171875 510.162109375 233.171875ZM584.0126953125 233.171875Q566.361328125 233.171875 558.56103515625 224.3828125Q550.7607421875 215.59375 550.7607421875 196.404296875V183.806640625H576.2490234375V199.919921875Q576.2490234375 204.3876953125 577.60400390625 206.91455078125Q578.958984375 209.44140625 582.328125 209.44140625Q585.84375 209.44140625 587.19873046875 207.390625Q588.5537109375 205.33984375 588.5537109375 200.65234375Q588.5537109375 194.7197265625 587.3818359375 190.72802734375Q586.2099609375 186.736328125 583.31689453125 183.11083984375Q580.423828125 179.4853515625 575.296875 174.6513671875L563.724609375 163.6650390625Q550.7607421875 151.43359375 550.7607421875 135.6865234375Q550.7607421875 119.20703125 558.41455078125 110.564453125Q566.068359375 101.921875 580.5703125 101.921875Q598.294921875 101.921875 605.72900390625 111.3701171875Q613.1630859375 120.818359375 613.1630859375 140.0810546875H586.9423828125V131.21875Q586.9423828125 128.58203125 585.44091796875 127.1171875Q583.939453125 125.65234375 581.3759765625 125.65234375Q578.2998046875 125.65234375 576.87158203125 127.37353515625Q575.443359375 129.0947265625 575.443359375 131.8046875Q575.443359375 134.5146484375 576.908203125 137.6640625Q578.373046875 140.8134765625 582.6943359375 144.9150390625L597.5625 159.197265625Q602.0302734375 163.4453125 605.765625 168.16943359375Q609.5009765625 172.8935546875 611.771484375 179.15576171875Q614.0419921875 185.41796875 614.0419921875 194.4267578125Q614.0419921875 212.5908203125 607.34033203125 222.88134765625Q600.638671875 233.171875 584.0126953125 233.171875Z" fill="#f4f2ff"/></g>
+<g clip-path="url(#l2)"><path class="rise" style="animation-delay:0.7s" d="M101.578125 368.0 85.6845703125 239.0205078125H110.220703125L119.6689453125 326.7646484375L128.091796875 239.0205078125H152.6279296875L136.734375 368.0ZM160.9267578125 368.0V239.09375H185.8291015625V368.0ZM198.0830078125 368.0V239.09375H223.8642578125V346.02734375H250.3779296875V368.0ZM259.7021484375 368.0V239.09375H311.2646484375V263.99609375H285.9228515625V289.1181640625H310.2392578125V313.361328125H285.9228515625V342.8779296875H312.94921875V368.0ZM323.4453125 368.0V239.09375H349.2265625V346.02734375H375.740234375V368.0ZM381.548828125 368.0 394.0 239.09375H437.7255859375L449.95703125 368.0H425.5673828125L423.736328125 347.19921875H408.208984375L406.59765625 368.0ZM410.0400390625 326.6181640625H421.7587890625L416.119140625 261.06640625H414.947265625ZM458.1826171875 367.9267578125V346.1005859375H484.4033203125V367.9267578125Z" fill="#ff3b5c"/></g>
+
+<rect class="frame" x="66" y="92" width="568.9" height="294" pathLength="1"/>
+<rect class="h" x="61" y="87" width="10" height="10"/><rect class="h" x="629.8984375" y="87" width="10" height="10"/><rect class="h" x="61" y="381" width="10" height="10"/><rect class="h" x="629.8984375" y="381" width="10" height="10"/>
+<g class="ftag"><rect x="66" y="66" width="150" height="20" rx="3" fill="#5b8cff"/>
+<text x="74" y="80" class="mono tag">h1 · 533 × 294</text></g>
+
+<g class="term">
+  <rect x="742" y="118" width="382" height="214" rx="12" fill="#110f2b" stroke="#2a2752"/>
+  <circle cx="764" cy="140" r="5" fill="#ff3b5c"/>
+  <circle cx="782" cy="140" r="5" fill="#f5c542"/>
+  <circle cx="800" cy="140" r="5" fill="#3ddc84"/>
+  <text x="1106" y="144" class="mono cmd" text-anchor="end">~/matheus</text>
+  <line x1="742" y1="160" x2="1124" y2="160" stroke="#2a2752"/>
+  <g class="tl" style="animation-delay:1.60s"><text x="764" y="184" class="mono cmd">$ whoami</text><text x="764" y="201" class="mono out" fill="#c9c6e8">dev front &amp; back-end</text></g><g class="tl" style="animation-delay:2.15s"><text x="764" y="222" class="mono cmd">$ cat estudo.txt</text><text x="764" y="239" class="mono out" fill="#c9c6e8">ADS · IFPE Campus Garanhuns</text></g><g class="tl" style="animation-delay:2.70s"><text x="764" y="260" class="mono cmd">$ stack --top</text><text x="764" y="277" class="mono out" fill="#c9c6e8">React · TypeScript · Next.js · Java</text></g><g class="tl" style="animation-delay:3.25s"><text x="764" y="298" class="mono cmd">$ status</text><text x="764" y="315" class="mono out" fill="#3ddc84">● disponível para projetos</text></g>
+  <rect class="caret" x="764" y="324" width="9" height="15" fill="#ff3b5c"/>
+</g>
+
+<g class="cur cur-a"><path d="M0 0 L0 20 L5.5 15 L9.5 24 L13 22.5 L9 13.8 L16 13.8 Z" fill="#ff3b5c" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/><rect x="14" y="22" width="62" height="22" rx="4" fill="#ff3b5c"/><text x="45.0" y="37" class="mono lbl" text-anchor="middle">Claude</text></g>
+<g class="cur cur-b"><path d="M0 0 L0 20 L5.5 15 L9.5 24 L13 22.5 L9 13.8 L16 13.8 Z" fill="#5b8cff" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/><rect x="14" y="22" width="72" height="22" rx="4" fill="#5b8cff"/><text x="50.0" y="37" class="mono lbl" text-anchor="middle">ChatGPT</text></g>
+</svg>
