@@ -4,7 +4,7 @@
 
 **Não é só código. É resolver problemas.**
 
-Estudante de **Análise e Desenvolvimento de Sistemas** no **IFPE Campus Garanhuns**,
+Estudante de **Análise e Desenvolvimento de Sistemas** no **IFPE**,
 técnico em informática e fascinado por tecnologia.
 
 [![Portfólio](https://img.shields.io/badge/ver_o_portfólio-ff3b5c?style=for-the-badge&logo=react&logoColor=white)](https://github.com/Matheusvilela1/portfolio)
@@ -21,7 +21,7 @@ técnico em informática e fascinado por tecnologia.
 ```ts
 const matheus = {
   formacao:  "Técnico em Informática — IFPE",
-  cursando:  "Análise e Desenvolvimento de Sistemas — IFPE Campus Garanhuns",
+  cursando:  "Análise e Desenvolvimento de Sistemas — IFPE",
   foco:      ["Desenvolvimento Web", "Front-end", "Back-end"],
   agora:     "construindo o Kro, um cronograma de estudos que se reorganiza sozinho",
   ia:        ["ChatGPT", "Claude"],   // parceiros de pesquisa, revisão e protótipo
